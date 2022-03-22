@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 import Form from './Components/Form';
+import Navbar from './Components/Navbar';
 import ToDos from './Components/ToDos';
 
 function App() {
@@ -59,6 +60,7 @@ function App() {
   
   return (
     <div className="App">
+    <Navbar />
     <h1 >Kawan's Todo List</h1>
      <Form setStatus={setStatus} todos={todos} setTodos={setTodos} inputText={inputText} setInputText={setInputText} />
      <ToDos filter={filter} todos={todos} setTodos={setTodos} />

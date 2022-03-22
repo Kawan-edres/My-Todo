@@ -1,12 +1,16 @@
 
-body {
+html{
+  
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+body {
+ 
   /* background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%); */
   /* background: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
    */
-   background-color: #B4CFB0;
+  background-color: #B4CFB0;
   background-repeat: no-repeat;
   background-size: contain;
 
