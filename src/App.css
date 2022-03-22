@@ -185,21 +185,26 @@ select{
 
 @media screen and (max-width:600px) {
 
+  .App{
+    margin-left: 10px;
+  }
+
 
   h1{
-    font-size: 2rem;
+    font-size: 1.8rem;
+
   }
   form{
     flex-direction: column;
   }
   .add{
-    width: 15%;
+    width: 27%;
     margin: 10px;
     font-size: 2rem;
   }
 
   .form input{
-    width: 70%;
+    width: 90%;
     padding: 0.9rem;
     border-radius: 5px;
     border: none;

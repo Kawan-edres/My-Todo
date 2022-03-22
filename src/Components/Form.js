@@ -24,7 +24,7 @@ const Form = ({todos,setTodos,inputText,setInputText,setStatus}) => {
 
          <form action="">
          
-         <input value={inputText} onChange={inputHandler} type="text" />
+         <input value={inputText} placeholder="add you todos here" onChange={inputHandler} type="text" />
          
         
         <button onClick={addHandler} className='add' type='submit'>
