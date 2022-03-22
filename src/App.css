@@ -1,38 +1,127 @@
 .App {
+ 
+ 
+  padding: 4rem ;
+  
+
+ 
+}
+ h1{
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 3rem;
+  letter-spacing: 2px;
+  
+ }
+.form{
+   margin-top: 100px;
+ 
+   
+   
+}
+.form input{
+  width: 30%;
+  padding: 0.9rem;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.5rem;
+ 
+
+
+
+  
+}
+button{
+  border: none;
+  
+}
+.add{
+  margin-left: 10px;
+  font-size: 1.5rem;
+  background-color: tomato;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  padding: 0.9rem;  
   text-align: center;
+ 
+  
+  
+  
+}
+.add:hover{
+  box-shadow: 1px 0px 0px 2px black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.add:active {
+  font-size: 1rem;
+  transform: scale(0.9);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.todo-container{
+  margin-top: 3rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.todo-item{
+  background-color: aliceblue;
+  width: 40%;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 0.7rem;
+
+}
+ul{
+  padding: 0;
+}
+.mushkila{
+  display: flex;
+  align-items: center;
+  
+
+}
+.mushkila li{
+  margin-left: 10px;
+  font-size: 1.7rem;
+}
+.checkmark {
+  background-color: green;
+  height: 25px;
+  width: 25px;
+  
+}
+.done{
+  text-decoration: line-through;
 }
 
-.App-link {
-  color: #61dafb;
+.todo-item li{
+  list-style: none;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tick:active{
+  transform: scale(0.9);
+}
+
+.trash{
+  background-color: red;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.trash:active{
+  transform: scale(0.9);
+}
+
+form{
+  display: flex;
+}
+select{
+  padding: 0.5rem;
+  margin-left: 10px;
+  text-align: center;
+  font-size: 1.5rem;
 }
