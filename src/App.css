@@ -250,11 +250,16 @@ select{
   select{
     width: 23%;
     padding: 0.4rem;  
+    
   }
 
   .todo-item{
     padding: 0;
     width: 94%;
+    
+  }
+  .mushkila li{
+    font-size: 1.4rem;
   }
   .trash{
     padding: 0.3rem;
