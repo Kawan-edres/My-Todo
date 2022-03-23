@@ -190,9 +190,17 @@ select{
     margin-left: 10px;
   }
 
+  nav{
+    height: 10vh;
+  }
 
   h1{
     font-size: 1.8rem;
+    position: absolute;
+    color: white;
+    top: 20px;
+    padding: 0;
+    margin: 0;
 
   }
   form{
@@ -200,12 +208,13 @@ select{
     
   }
   .form{
-    margin-top: 50px!important;
+    margin-top: 100px!important;
   }
   .add{
-    width: 27%;
+    width: 23%;
     margin: 10px;
     font-size: 2rem;
+
   }
 
   .form input{
@@ -228,18 +237,25 @@ select{
 
 @media screen and (max-width:400px) {
 
+  h1{
+    font-size: 1.5rem;
+    letter-spacing: 0;
+  }
   .add{
     
-    width: 15%;
+    width: 23%;
     font-size: 1rem;
   }
 
   select{
-    width: 15%;
-    padding: 0.4rem;
+    width: 23%;
+    padding: 0.4rem;  
   }
 
   .todo-item{
     padding: 0;
+  }
+  .trash{
+    padding: 0.3rem;
   }
 }
