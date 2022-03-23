@@ -1,5 +1,5 @@
 .App {
- margin-top: 200px;
+ margin-top: 110px;
  margin-left: 40px;
  padding: 0;
 }
@@ -186,6 +186,7 @@ select{
 @media screen and (max-width:600px) {
 
   .App{
+    margin-top: 60px;
     margin-left: 10px;
   }
 
@@ -196,6 +197,10 @@ select{
   }
   form{
     flex-direction: column;
+    
+  }
+  .form{
+    margin-top: 50px!important;
   }
   .add{
     width: 27%;
@@ -213,7 +218,28 @@ select{
 
   }
   
+.todo-item{
+  padding: 0.2rem;
+}
 
 
+}
 
+
+@media screen and (max-width:400px) {
+
+  .add{
+    
+    width: 15%;
+    font-size: 1rem;
+  }
+
+  select{
+    width: 15%;
+    padding: 0.4rem;
+  }
+
+  .todo-item{
+    padding: 0;
+  }
 }
